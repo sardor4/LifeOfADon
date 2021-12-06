@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Плеер</title>
+</head>
+<body>
+    <div class="player">
+
+        <div class="player__header">
+            <div class="player__img player__img--absolute slider">
+                <button class="player__button player__button--absolute--nw playlist">
+                    <img src="http://physical-authority.surge.sh/imgs/icon/playlist.svg" alt="playlist-icon">
+                </button>
+                <button class="player__button player__button--absolute--center play">
+                    <img src="http://physical-authority.surge.sh/imgs/icon/play.svg" alt="play-icon">
+                    <img src="http://physical-authority.surge.sh/imgs/icon/pause.svg" alt="pause-icon">
+                </button>
+                <div class="slider__content">
+                    <!-- 1 --><img class="img slider__img" src="image/6154301ab55ae.jpg" alt="cover">
+                    <!-- 2 --><img class="img slider__img" src="image/6154301ab55ae.jpg" alt="cover">
+                    <!-- 3 --><img class="img slider__img" src="image/6154301ab55ae.jpg" alt="cover">
+                    <!-- 4 --><img class="img slider__img" src="image/6154301ab55ae.jpg" alt="cover">
+                    <!-- 5 --><img class="img slider__img" src="image/6154301ab55ae.jpg" alt="cover">
+                    <!-- 6 --><img class="img slider__img" src="image/6154301ab55ae.jpg" alt="cover">
+                    <!-- 7 --><img class="img slider__img" src="image/6154301ab55ae.jpg" alt="cover">
+                    <!-- 8 --><img class="img slider__img" src="image/6154301ab55ae.jpg" alt="cover">
+                    <!-- 9 --><img class="img slider__img" src="image/6154301ab55ae.jpg" alt="cover">
+                    <!-- 10 --><img class="img slider__img" src="image/6154301ab55ae.jpg" alt="cover">
+                    <!-- 11 --><img class="img slider__img" src="image/6154301ab55ae.jpg" alt="cover">
+                    <!-- 12 --><img class="img slider__img" src="image/6154301ab55ae.jpg" alt="cover">
+                    <!-- 13 --><img class="img slider__img" src="image/6154301ab55ae.jpg" alt="cover">
+                    <!-- 14 --><img class="img slider__img" src="image/6154301ab55ae.jpg" alt="cover">
+                    <!-- 15 --><img class="img slider__img" src="image/6154301ab55ae.jpg" alt="cover">
+                </div>
+            </div>
+
+            <div class="player__controls">
+                <button class="player__button back">
+                    <img class="img" src="http://physical-authority.surge.sh/imgs/icon/back.svg" alt="back-icon">
+                </button>
+
+                <p class="player__context slider__context">
+                    <strong class="slider__title"></strong>
+                    <span class="player__title slider__name"></span>
+                </p>
+                <button class="player__button next">
+                    <img class="img" src="http://physical-authority.surge.sh/imgs/icon/next.svg" alt="next-icon">
+                </button>
+
+                <div class="progres">
+                    <div class="progres__filled"></div>
+                </div>
+            </div>
+        </div>
+        <ul class="player__playlist list">
+
+<!-- 1 -->
+            <li class="player__song">
+                <img class="player__img img" src="image/6154301ab55ae.jpg" alt="cover">
+                <p class="player__context ">
+                    <b class="player__song-name">XSCAPE</b>
+                    <span class="flex">
+                        <span class="player__title">Don Toliver</span>
+                        <span class="player__song-time"></span>
+                    </span>
+                </p>
+                <audio class="audio" src="music/1.mp3"></audio>
+            </li>
+<!-- 2 -->
+            <li class="player__song">
+                <img class="player__img img" src="image/6154301ab55ae.jpg" alt="cover">
+                <p class="player__context ">
+                    <b class="player__song-name">Way bigger</b>
+                    <span class="flex">
+                        <span class="player__title">Don Toliver</span>
+                        <span class="player__song-time"></span>
+                    </span>
+                </p>
+                <audio class="audio" src="music/2.mp3"></audio>
+            </li>
+<!-- 3 -->
+            <li class="player__song">
+                <img class="player__img img" src="image/6154301ab55ae.jpg" alt="cover">
+                <p class="player__context ">
+                    <b class="player__song-name">Flocky flocky</b>
+                    <span class="flex">
+                        <span class="player__title">Don Toliver</span>
+                        <span class="player__song-time"></span>
+                    </span>
+                </p>
+                <audio class="audio" src="music/3.mp3"></audio>
+            </li>
+<!-- 4 -->
+            <li class="player__song">
+                <img class="player__img img" src="image/6154301ab55ae.jpg" alt="cover">
+                <p class="player__context ">
+                    <b class="player__song-name">What you need</b>
+                    <span class="flex">
+                        <span class="player__title">Don Toliver</span>
+                        <span class="player__song-time"></span>
+                    </span>
+                </p>
+                <audio class="audio" src="music/What You Need.m4a"></audio>
+            </li>
+<!-- 5 -->
+            <li class="player__song">
+                <img class="player__img img" src="image/6154301ab55ae.jpg" alt="cover">
+                <p class="player__context ">
+                    <b class="player__song-name">Double Standards</b>
+                    <span class="flex">
+                        <span class="player__title">Don Toliver</span>
+                        <span class="player__song-time"></span>
+                    </span>
+                </p>
+                <audio class="audio" src="music/5.m4a"></audio>
+            </li>
+<!-- 6 -->
+            <li class="player__song">
+                <img class="player__img img" src="image/6154301ab55ae.jpg" alt="cover">
+                <p class="player__context ">
+                    <b class="player__song-name">Swangin' on Westheimer</b>
+                    <span class="flex">
+                        <span class="player__title">Don Toliver</span>
+                        <span class="player__song-time"></span>
+                    </span>
+                </p>
+                <audio class="audio" src="music/6.mp3"></audio>
+            </li>
+<!-- 7 -->
+            <li class="player__song">
+                <img class="player__img img" src="image/6154301ab55ae.jpg" alt="cover">
+                <p class="player__context ">
+                    <b class="player__song-name">Drugs N Hella Melodies</b>
+                    <span class="flex">
+                        <span class="player__title">Don Toliver</span>
+                        <span class="player__song-time"></span>
+                    </span>
+                </p>
+                <audio class="audio" src="music/7.mp3"></audio>
+            </li>
+<!-- 8 -->
+            <li class="player__song">
+                <img class="player__img img" src="image/6154301ab55ae.jpg" alt="cover">
+                <p class="player__context ">
+                    <b class="player__song-name">2AM</b>
+                    <span class="flex">
+                        <span class="player__title">Don Toliver</span>
+                        <span class="player__song-time"></span>
+                    </span>
+                </p>
+                <audio class="audio" src="music/8.mp3"></audio>
+            </li>
+<!-- 9 -->
+            <li class="player__song">
+                <img class="player__img img" src="image/6154301ab55ae.jpg" alt="cover">
+                <p class="player__context ">
+                    <b class="player__song-name">Get throwed</b>
+                    <span class="flex">
+                        <span class="player__title">Don Toliver</span>
+                        <span class="player__song-time"></span>
+                    </span>
+                </p>
+                <audio class="audio" src="music/9.mp3"></audio>
+            </li>
+<!-- 10 -->
+            <li class="player__song">
+                <img class="player__img img" src="image/6154301ab55ae.jpg" alt="cover">
+                <p class="player__context ">
+                    <b class="player__song-name">Company pt2</b>
+                    <span class="flex">
+                        <span class="player__title">Don Toliver</span>
+                        <span class="player__song-time"></span>
+                    </span>
+                </p>
+                <audio class="audio" src="music/10.mp3"></audio>
+            </li>
+<!-- 11 -->
+            <li class="player__song">
+                <img class="player__img img" src="image/6154301ab55ae.jpg" alt="cover">
+                <p class="player__context ">
+                    <b class="player__song-name">OUTERSPACE</b>
+                    <span class="flex">
+                        <span class="player__title">Don Toliver & Baby Keem</span>
+                        <span class="player__song-time"></span>
+                    </span>
+                </p>
+                <audio class="audio" src="music/11.m4a"></audio>
+            </li>
+<!-- 12 -->
+            <li class="player__song">
+                <img class="player__img img" src="image/6154301ab55ae.jpg" alt="cover">
+                <p class="player__context ">
+                    <b class="player__song-name">Smoke</b>
+                    <span class="flex">
+                        <span class="player__title">Don Toliver</span>
+                        <span class="player__song-time"></span>
+                    </span>
+                </p>
+                <audio class="audio" src="music/12.mp3"></audio>
+            </li>
+<!-- 13 -->
+            <li class="player__song">
+                <img class="player__img img" src="image/6154301ab55ae.jpg" alt="cover">
+                <p class="player__context ">
+                    <b class="player__song-name">You</b>
+                    <span class="flex">
+                        <span class="player__title">Don Toliver & Travis Scott</span>
+                        <span class="player__song-time"></span>
+                    </span>
+                </p>
+                <audio class="audio" src="music/13.mp3"></audio>
+            </li>
+<!-- 14 -->
+            <li class="player__song">
+                <img class="player__img img" src="image/6154301ab55ae.jpg" alt="cover">
+                <p class="player__context ">
+                    <b class="player__song-name">Crossfaded</b>
+                    <span class="flex">
+                        <span class="player__title">Don Toliver</span>
+                        <span class="player__song-time"></span>
+                    </span>
+                </p>
+                <audio class="audio" src="music/14.mp3"></audio>
+            </li>
+<!-- 15 -->
+            <li class="player__song">
+                <img class="player__img img" src="image/6154301ab55ae.jpg" alt="cover">
+                <p class="player__context ">
+                    <b class="player__song-name">BOGUS</b>
+                    <span class="flex">
+                        <span class="player__title">Don Toliver</span>
+                        <span class="player__song-time"></span>
+                    </span>
+                </p>
+                <audio class="audio" src="music/15.m4a"></audio>
+            </li>
+
+
+        </ul>
+    
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
